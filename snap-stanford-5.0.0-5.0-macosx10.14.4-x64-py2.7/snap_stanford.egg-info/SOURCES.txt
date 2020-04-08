@@ -1,0 +1,12 @@
+README.txt
+_snap.so
+install_name_tool
+setup.cfg
+setup.py
+snap.py
+update_dynlib.sh
+snap_stanford.egg-info/PKG-INFO
+snap_stanford.egg-info/SOURCES.txt
+snap_stanford.egg-info/dependency_links.txt
+snap_stanford.egg-info/not-zip-safe
+snap_stanford.egg-info/top_level.txt
