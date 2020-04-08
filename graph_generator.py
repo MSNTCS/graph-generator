@@ -20,6 +20,7 @@ try:
     L = int(sys.argv[3]);
     dist = sys.argv[4];
     model = sys.argv[5];
+    is_directed = sys.argv[6];
 except:
     print("first three params need to be integers");
     exitMain();
@@ -74,7 +75,7 @@ for EI in UGraph.Edges():
     #label = 2**label;
     #print(label);
     
-    if( isDirected == False ):
+    if( isDirected == is_directed ):
         direction = random.uniform(0,1);
     else:
         direction = 0.0;
